@@ -1,60 +1,54 @@
+# CareConnect Documentation Portfolio — Version 2.0
 
-# CareConnect Demo Portal – Documentation
+> **Demonstration project only.** CareConnect is a fictional healthcare appointment portal created for a technical-writing portfolio. It is not a real product, is not approved clinical guidance, and contains no real patient information.
 
-## 1. Overview
+## Project overview
+This repository demonstrates task-based software documentation, operational procedures, support knowledge articles, release communication, and accessibility-aware editorial practice.
 
-CareConnect is a fictional healthcare appointment portal used to demonstrate technical writing and software documentation skills.
+## Documentation
+| File | Audience | Purpose |
+|---|---|---|
+| [Software User Guide](docs/user-guide.md) | Patients / portal users | Explain common account and appointment tasks |
+| [Access-Issue SOP](docs/access-issue-sop.md) | First-line support staff | Provide a consistent, safe triage process |
+| [Troubleshooting Article](docs/troubleshooting.md) | Portal users | Help users complete basic sign-in checks |
+| [Release Notes](docs/release-notes.md) | Users and support teams | Summarise a fictional interface change |
+| [Quality & Accessibility Checklist](docs/quality-checklist.md) | Writers and reviewers | Support pre-publication review |
 
-This documentation provides instructions for users navigating the application and guidance for resolving common access issues.
+## Visual examples
+- [Dashboard mock-up](images/careconnect_dashboard_mockup.png) — synthetic interface illustration.
+- [Access-issue workflow](images/access_issue_workflow.png) — process overview.
 
-## 2. Documentation Contents
+## How to review
+1. Start with the **Software User Guide** to understand the fictional product and user tasks.
+2. Review the **Access-Issue SOP** for roles, safeguards, decision points, and escalation.
+3. Read the **Troubleshooting Article** as a user-facing support example.
+4. Review the release note and quality checklist to see how changes and publication checks are documented.
+5. Treat all interface labels, workflows, and policies as illustrative until verified by an authorised product owner or subject-matter expert.
 
-| Document | Description |
-|---|---|
-| User Guide | Explains registration, sign-in and appointment navigation. |
-| Standard Operating Procedure | Documents procedures for handling user access issues. |
-| Troubleshooting Guide | Provides solutions to common sign-in problems. |
+## Project structure
+```text
+careconnect-documentation/
+├── README.md
+├── docs/
+│   ├── user-guide.md
+│   ├── access-issue-sop.md
+│   ├── troubleshooting.md
+│   ├── release-notes.md
+│   └── quality-checklist.md
+└── images/
+    ├── careconnect_dashboard_mockup.png
+    └── access_issue_workflow.png
+```
 
-## 3. Getting Started
+## Standards and limitations
+This sample uses accessibility-aware writing practices such as descriptive headings, meaningful link text, plain language, and non-colour-only status descriptions. It does **not** claim WCAG or Section 508 conformance. Applicable standards and acceptance criteria must be confirmed for the target organisation and document format.
 
-Follow these steps to access the demonstration portal:
+## Author
+- **Name:** Ian Kipkorir
+- **Email:** iankipkorir256@gmail.com
+- **Phone:** 0115965120
+- **Education:** Diploma in Information Technology, Meru University (2018)
+- **GitHub repository:** To be added once the public repository has been created.
 
-1. Open the official portal link supplied by your organization.
-2. Enter your registered email address.
-3. Enter your account password.
-4. Select **Sign in**.
-5. Follow any additional verification instructions.
-6. Review the dashboard after successful authentication.
-
-## 4. Troubleshooting
-
-If you cannot access the portal:
-
-1. Verify that you are using the correct sign-in address.
-2. Check your email address for typing errors.
-3. Refresh the browser.
-4. Use the approved password recovery option if necessary.
-5. Contact the authorized support team if the problem continues.
-
-**Security reminder:** Never share your password or verification code.
-
-## 5. Related Documentation
-
-- [Software User Guide](docs/user-guide.md)
-- [Standard Operating Procedure](docs/access-issue-sop.md)
-- [Troubleshooting Guide](docs/troubleshooting.md)
-
-## 6. Version Information
-
-| Field | Details |
-|---|---|
-| Project | CareConnect Demo Portal |
-| Documentation Version | 1.0 |
-| Status | Demonstration |
-| Author | [Your Full Name] |
-| Last Updated | [Insert Date] |
-
-## 7. Important Notice
-
-CareConnect is a fictional demonstration project. This documentation is intended for educational and technical-writing portfolio purposes only. It does not describe an operational healthcare system.
-
+## Author note
+This is an independently created learning sample, not paid client work, production healthcare documentation, or evidence of employment by a healthcare provider. The portfolio demonstrates writing and organisation through fictional examples; it does not imply professional healthcare-domain experience or subject-matter-expert approval.
